@@ -1,0 +1,31 @@
+INT MAIN - ok
+Registro()- ok
+Consulta()- ok
+Deletar() - ok
+
+
+*CENÁRIO DE TESTE*
+1) Tela inicial -  Tela de LOGIN
+	1.a) Recusa de acesso está correto para qualquer senha incorreta.
+	1.b) Acesso de admin está correto para senha 'admin'.
+
+2) Função MENU - Tela de MENU
+	2.a) Criada corretamente, a instância iniciou e encerrou-se conforme esperado.
+	2.b) Chamada de todas funções ('Registrar nomes','Consultar nomes','Deletar nomes','Sair').
+		2.b.i) Função 'Registrar nomes':
+			Criação de banco de dados está correta
+			Inserção de CPF, ok
+			Inserção de nome, ok
+			Inserção de sobrenome, ok
+			Inserção de cargo, ok
+			Encerramento de função e retorno ao MENU, ok
+		2.b.ii) Função 'Consultar nomes':
+			Solicitação de CPF, ok
+			Consulta ao banco de dados, ok
+			Retorno ao usuário, ok
+			Retorno ao Menu, ok
+		2.b.iii) Função 'Deletar nomes':
+			solicitação de cpf, ok
+			deletar no banco, ok
+		2.b.iv) Função 'Sair':
+			Fechamento do programa, ok
